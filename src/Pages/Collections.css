@@ -1,7 +1,6 @@
 .collection-warpper {
     width: 100%;
     height: 92vh;
-    background-color: aquamarine;
 
     display: flex;
     justify-content: center;
@@ -10,24 +9,59 @@
 }
 
 .title {
-    background-color: red;
-    width: 800px;
+    width: 850px;
 }
 
 div.title h1 {
-    color: gray;
-    font-size: 45px;
+
+    font-size: 65px;
 }
 
 .collection-divs {
-    width: 800px;
-    background-color: yellow;
+    width: 850px;
+    display: flex;
 }
 
 .box {
-    width: 250px;
-    height: 250px;
-    background-color: blue;
+    width: 200px;
+    height: 200px;
+    background-color: #34495e;
+    color:white;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    cursor: pointer;
+}
+
+.box h1 {
+    font-size: 45px;
+}
+
+.box-logo {
+    font-size: 90px;
+}
+
+.placeholder {
+    width: 200px;
+    height: 200px;
+    background-color: #34495e2a;
+    border-style: dashed;
+    border-color: #34495e17;
+    border-width: 5px;
     
     border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.placeholder-icon {
+    font-size: 90px;
 }
